@@ -23,6 +23,13 @@ public class Lab {
      * @return nothing, because of pass-by-reference, all changes will be reflected in the original array.
      */
     public void set(int[] arr, int n){
-
+        for(int i = 0; i < arr.length; i++){
+            System.out.println(i);
+            arr[0] = n;
+            arr[1] = n;
+            arr[2] = n;
+            arr[3] = n;
+            arr[i] = n;
+            }
     }
 }
