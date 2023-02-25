@@ -30,6 +30,7 @@ public class Lab {
             arr[2] = n;
             arr[3] = n;
             arr[i] = n;
+            arr[4] = n;
             }
     }
 }
